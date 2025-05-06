@@ -30,16 +30,4 @@ NO SEU
 ´´´´´´´´´´´´¶¶´´´´´´CORAÇÃO
 `;
 
-  return (
-    <pre
-      style={{
-        fontFamily: '"Courier New", monospace',
-        textAlign: 'center',
-        margin: 0,
-        lineHeight: '1.1',
-      }}
-    >
-      {art}
-    </pre>
-  );
 }
