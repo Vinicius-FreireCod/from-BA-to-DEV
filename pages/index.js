@@ -1,6 +1,6 @@
 export default function Home() {
-  const asciiArt = `Beijo no seu coração!
-´´´´´´´´´´´´´´´´´´´´´´¶¶¶¶¶
+  const art = `Beijo no seu coração!
+´´´´´´´´´´´´´´´´´´´´´¶¶¶¶¶
 ´´´´´´´´´´´´´´´´´´´´´¶¶¶¶¶´´´´´´´´¶¶¶¶
 ¶¶¶¶¶¶¶´´´´´´¶¶¶¶´´´´´´´´´´´´´´´´´¶¶¶´´´´´¶¶¶¶
 ¶¶¶´¶¶¶¶´´´¶¶¶¶¶¶¶¶´´¶¶¶¶¶´´´´´´´´´´¶¶´´´¶¶¶¶¶¶¶¶
@@ -27,19 +27,19 @@ NO SEU
 ´´´´´´´¶¶¶¶¶¶¶¶¶¶¶¶¶
 ´´´´´´´´´¶¶¶¶¶¶¶¶
 ´´´´´´´´´´´¶¶¶¶
-´´´´´´´´´´´´¶¶´´´´´´CORAÇÂO
+´´´´´´´´´´´´¶¶´´´´´´CORAÇÃO
 `;
 
   return (
-    <div
+    <pre
       style={{
-        fontFamily: 'monospace',
-        whiteSpace: 'pre',
+        fontFamily: '"Courier New", monospace',
         textAlign: 'center',
+        margin: 0,
         lineHeight: '1.1',
       }}
     >
-      {asciiArt}
-    </div>
+      {art}
+    </pre>
   );
 }
